@@ -1,0 +1,5 @@
+atom-beautify@0.29.17
+language-cmake@0.3.0
+language-d@3.3.1
+
+
