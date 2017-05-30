@@ -1,5 +1,9 @@
 atom-beautify@0.29.17
 language-cmake@0.3.0
 language-d@3.3.1
+language-elm@1.5.0
+language-latex@1.0.0
+language-lua@0.9.11
+language-meson@0.2.1
 
 
