@@ -46,7 +46,7 @@ function copy_configs {
   cp init.vim ~/.config/nvim/init.vim
 }
 
-mkdir ~/bin
+cp -r bin ~/
 sudo dnf upgrade -y
 enable_rpmfusion
 install_packages
