@@ -11,14 +11,6 @@ packages=(
   gstreamer1-plugins-bad-nonfree
 )
 
-# Fish Config
-read -r -d '' fishConfig <<'EOF'
-set fish_greeting
-
-set -x PLAN9 /usr/local/plan9
-set -x PATH ~/bin $PLAN9/bin $PATH
-EOF
-
 function enable_rpmfusion {
   sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E '%fedora').noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E '%fedora').noarch.rpm
 }
@@ -40,9 +32,6 @@ function install_packages {
   popd
   # set fish as default shell
   sudo usermod -s `which fish` $USER
-  # configure fish and add plan9 to it
-  mkdir -p ~/.config/fish
-  echo "$fishConfig" > ~/.config/fish/config.fish
 }
 
 function configure_git {
@@ -50,8 +39,16 @@ function configure_git {
   git config --global user.email "v.kitchen@gnoms.org"
 }
 
+function copy_configs {
+  mkdir -p ~/.config/fish
+  cp config.fish ~/.config/fish/config.fish
+  mkdir -p ~/.config/nvim
+  cp init.vim ~/.config/nvim/init.vim
+}
+
 mkdir ~/bin
 sudo dnf upgrade -y
 enable_rpmfusion
 install_packages
 configure_git
+copy_configs
