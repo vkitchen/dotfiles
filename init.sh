@@ -7,6 +7,8 @@ packages=(
   tmux
   neovim
   seahorse
+  gstreamer1-libav
+  gstreamer1-plugins-bad-nonfree
 )
 
 # Fish Config
@@ -14,9 +16,12 @@ read -r -d '' fishConfig <<'EOF'
 set fish_greeting
 
 set -x PLAN9 /usr/local/plan9
-set -x PATH $PLAN9/bin $PATH
+set -x PATH ~/bin $PLAN9/bin $PATH
 EOF
 
+function enable_rpmfusion {
+  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E '%fedora').noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E '%fedora').noarch.rpm
+}
 
 function install_packages {
   sudo dnf install -y ${packages[*]}
@@ -45,6 +50,8 @@ function configure_git {
   git config --global user.email "v.kitchen@gnoms.org"
 }
 
+mkdir ~/bin
 sudo dnf upgrade -y
+enable_rpmfusion
 install_packages
 configure_git
