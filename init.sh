@@ -7,6 +7,9 @@ packages=(
   tmux
   neovim
   seahorse
+  libXext-devel
+  libX11-devel
+  libXt-devel
   gstreamer1-libav
   gstreamer1-plugins-bad-nonfree
 )
