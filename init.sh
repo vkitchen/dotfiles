@@ -12,6 +12,10 @@ packages=(
   libXt-devel
   gstreamer1-libav
   gstreamer1-plugins-bad-nonfree
+  ncmpcpp
+  gimp
+  inkscape
+  transmission
 )
 
 function enable_rpmfusion {
