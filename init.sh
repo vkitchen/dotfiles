@@ -16,6 +16,9 @@ packages=(
   gimp
   inkscape
   transmission
+  unrar
+  nmap
+  scrot
 )
 
 function enable_rpmfusion {
