@@ -10,6 +10,8 @@ packages=(
   libXext-devel
   libX11-devel
   libXt-devel
+  freetype-devel
+  fontconfig-devel
   gstreamer1-libav
   gstreamer1-plugins-bad-nonfree
   ncmpcpp
