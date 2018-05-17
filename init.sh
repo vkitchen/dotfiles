@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 packages=(
+  man-pages
+  bc
   tmux
   elinks
   vim
