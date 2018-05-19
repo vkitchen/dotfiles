@@ -34,6 +34,15 @@ packages=(
   moreutils
   nmap
   fish
+  zathura
+  zathura-ps
+  zathura-pdf-mupdf
+  python2-websocket-client
+  isync
+  bind-utils
+  w3m
+  antiword
+  dunst
 )
 
 function add_repos {
