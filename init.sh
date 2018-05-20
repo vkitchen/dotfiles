@@ -43,6 +43,11 @@ packages=(
   w3m
   antiword
   dunst
+  msmtp
+  @development-tools
+  net-tools
+  pciutils
+  iwl7260-firmware
 )
 
 function add_repos {
