@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Inconsolata:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -85,28 +85,30 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#060508",  /*  0: black     */
-	"#c81414",  /*  1: red       */
-	"#89ff50",  /*  2: green     */
-	"#fc7022",  /*  3: yellow    */
-	"#289eff",  /*  4: blue      */
-	"#ca30fe",  /*  5: magenta   */
-	"#59ffea",  /*  6: cyan      */
-	"#ffffff",  /*  7: white     */
+	"#3d3d3d",  /*  0: black     */
+	"#6673bf",  /*  1: red       */
+	"#3ea290",  /*  2: green     */
+	"#b0ead9",  /*  3: yellow    */
+	"#31658c",  /*  4: blue      */
+	"#596196",  /*  5: magenta   */
+	"#8292b2",  /*  6: cyan      */
+	"#c8cacc",  /*  7: white     */
 
 	/* 8 bright colors */
-	"#282a2e",  /*  8: brblack   */
-	"#c81414",  /*  9: brred     */
-	"#89ff50",  /* 10: brgreen   */
-	"#fc7022",  /* 11: bryellow  */
-	"#289eff",  /* 12: brblue    */
-	"#ca30fe",  /* 13: brmagenta */
-	"#59ffea",  /* 14: brcyan    */
-	"#ffffff",  /* 15: brwhite   */
+	"#4d4d4d",  /*  8: brblack   */
+	"#899aff",  /*  9: brred     */
+	"#52ad91",  /* 10: brgreen   */
+	"#98c9bb",  /* 11: bryellow  */
+	"#477ab3",  /* 12: brblue    */
+	"#7882bf",  /* 13: brmagenta */
+	"#95a7cc",  /* 14: brcyan    */
+	"#edeff2",  /* 15: brwhite   */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
+	"#1b1b1b",
+	"#ffffff",
 	"#cccccc",
 	"#555555",
 };
@@ -116,10 +118,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+unsigned int defaultbg = 256;
+unsigned int defaultfg = 257;
+static unsigned int defaultcs = 258;
+static unsigned int defaultrcs = 259;
 
 /*
  * Default shape of cursor
