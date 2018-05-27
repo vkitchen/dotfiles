@@ -48,6 +48,8 @@ packages=(
   net-tools
   pciutils
   iwl7260-firmware
+  screenfetch
+  poppler-utils
 )
 
 function add_repos {
