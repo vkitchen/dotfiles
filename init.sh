@@ -50,12 +50,16 @@ packages=(
   iwl7260-firmware
   screenfetch
   poppler-utils
+  whois
+  fontconfig-enhanced-defaults
+  fontconfig-font-replacements
+  inotify-tools
 )
 
 function add_repos {
   sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E '%fedora').noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E '%fedora').noarch.rpm
   sudo dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
-  sudo dnf enable dawid/better_fonts
+  sudo dnf copr enable dawid/better_fonts
 }
 
 function install_packages {
