@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# https://superuser.com/questions/181517/how-to-execute-a-command-whenever-a-file-changes
+
+if [ "$#" -eq 0 ]; then
+  echo "Usage: $0 [directory:optional] [command]"
+  exit 1
+fi
+if [ "$#" -eq 1 ]; then
+  watched_dir="$PWD"
+  program="$1"
+fi
+if [ "$#" -eq 2 ]; then
+  watched_dir="$1"
+  program="$2"
+fi
+if [ "$#" -gt 2 ]; then
+  echo "Usage: $0 [directory:optional] [command]"
+  exit 1
+fi
+
+inotifywait -e close_write,moved_to,create -m -r "$watched_dir" |
+while read -r directory events filename; do
+  "$program"
+done
