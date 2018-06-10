@@ -54,6 +54,9 @@ packages=(
   fontconfig-enhanced-defaults
   fontconfig-font-replacements
   inotify-tools
+  unrar
+  levien-inconsolata-fonts
+  w3m-img
 )
 
 function add_repos {
