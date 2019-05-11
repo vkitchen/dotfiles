@@ -4,13 +4,10 @@ input=$(</dev/stdin)
 iters="$1"
 shift
 
-total='0'
+function benchmark {
+  for ((i=0;i<"$iters";i++)); do
+    "$@" <<< "$input" > /dev/null
+  done
+}
 
-for ((i=0;i<"$iters";i++)); do
-  time="$(TIME='%e' time "$@" <<< "$input" 2>&1 > /dev/null)"
-  total="$(echo "$total + $time" | bc -l)"
-done
-
-result="$(echo "$total / $iters" | bc -l)"
-
-echo "Average time: $result"
+time benchmark "$@"
