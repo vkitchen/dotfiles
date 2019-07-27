@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 packages=(
+  time
   man-pages
   bc
   tmux
@@ -57,6 +58,11 @@ packages=(
   unrar
   levien-inconsolata-fonts
   w3m-img
+  jq
+  python2-demjson
+  tar
+  atool
+  broadcom-wl
 )
 
 function add_repos {
