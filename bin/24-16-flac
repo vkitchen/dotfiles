@@ -1,0 +1,9 @@
+#!/bin/sh
+# Converts 24bit to 16bit flac
+# requires: ffmpeg
+for f in *.flac;
+do
+	echo "Processing $f"
+	mv "$f" "${f%.flac}-24.flac"
+	ffmpeg -i "${f%.flac}-24.flac" -c:a flac -sample_fmt s16 -ar 44100 -compression_level 12 "$f"
+done
