@@ -2,8 +2,24 @@
 
 alias dir=ls
 
-PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games
-export PATH HOME TERM
+# Homebrew
+export HOMEBREW_PREFIX=/opt/homebrew
+export HOMEBREW_CELLAR=/opt/homebrew/Cellar
+export HOMEBREW_REPOSITORY=/opt/homebrew
+export HOMEBREW_SHELLENV_PREFIX=/opt/homebrew
 
-# Uncomment to set default prompt to the current working directory.
+# NVM (shell functions)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# ENV
+PATH=$HOME/bin:$HOME/.rbenv/shims:$HOME/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games
+MANPATH=/opt/homebrew/share/man:
+INFOPATH=/opt/homebrew/share/info:
+
+# Export ENV
+export PATH MANPATH INFOPATH HOME TERM
+
+# Prompt
 PS1='$PWD $ '
+
