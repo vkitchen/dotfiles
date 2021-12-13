@@ -9,4 +9,4 @@ call plug#end()
 colorscheme one
 set background=light
 
-nmap <C-P> :FZF<CR>
+nmap <C-P> :GFiles<CR>
