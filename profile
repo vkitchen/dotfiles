@@ -1,3 +1,4 @@
+# $OpenBSD: dot.profile,v 1.5 2018/02/02 02:29:54 yasuoka Exp $
 # oksh initialization
 
 alias dir=ls
@@ -20,6 +21,10 @@ INFOPATH=/opt/homebrew/share/info:
 # Export ENV
 export PATH MANPATH INFOPATH HOME TERM
 
+export LC_CTYPE='en_NZ.UTF-8'
+
 # Prompt
 PS1='$PWD $ '
 
+# Execute .kshrc
+export ENV=$HOME/.kshrc

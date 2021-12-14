@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-killall Macaw.exe
-
-WINEPREFIX="/home/daedalus/.wine" /usr/bin/wine C:\\windows\\command\\start.exe /Unix /home/daedalus/.wine/dosdevices/c:/users/daedalus/Start\ Menu/Programs/Macaw.lnk
