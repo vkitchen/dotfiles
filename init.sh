@@ -13,5 +13,6 @@ function hlink() {
 hlink config/nvim/init.vim
 hlink cwmrc
 hlink kshrc
+hlink newsboat/urls
 hlink profile
 hlink tmux.conf
