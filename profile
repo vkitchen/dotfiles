@@ -3,8 +3,6 @@
 
 alias dir=ls
 
-export EDITOR=nvim
-
 # Homebrew
 export HOMEBREW_PREFIX=/opt/homebrew
 export HOMEBREW_CELLAR=/opt/homebrew/Cellar
@@ -27,6 +25,10 @@ export LC_CTYPE='en_NZ.UTF-8'
 
 # Prompt
 PS1='$PWD $ '
+
+export EDITOR=$(whence nvim)
+# "normal" line editing mode
+set -o emacs
 
 # Execute .kshrc
 export ENV=$HOME/.kshrc
