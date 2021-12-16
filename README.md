@@ -21,3 +21,12 @@ MacBook Pro (14-inch, 2021)
 Chip Apple M1 Pro
 Memory 16 GB
 ```
+
+## Uni iMac
+
+```
+iMac (27-inch, Late 2013)
+Processor 3.2 GHz Intel Core i5
+Memory 8 GB 1600 MHz DDR3
+Graphics NVIDIA GeForce GT 755M 1024 MB
+```
