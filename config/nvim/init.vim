@@ -9,4 +9,6 @@ call plug#end()
 colorscheme one
 set background=light
 
+set clipboard=unnamed
+
 nmap <C-P> :GFiles<CR>
