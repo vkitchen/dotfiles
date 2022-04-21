@@ -29,7 +29,7 @@ export PATH MANPATH INFOPATH HOME TERM
 export EDITOR=$(whence nvim)
 
 # Private ENV
-. ~/.ksh_private
+[ -f ~/.ksh_private ] && . ~/.ksh_private
 
 ## Helpery things
 
