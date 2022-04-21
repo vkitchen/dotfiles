@@ -11,10 +11,6 @@ export HOMEBREW_CELLAR=/opt/homebrew/Cellar
 export HOMEBREW_REPOSITORY=/opt/homebrew
 export HOMEBREW_SHELLENV_PREFIX=/opt/homebrew
 
-# NVM (shell functions)
-export NVM_DIR=$HOME/.nvm
-[ -s $NVM_DIR/nvm.sh ] && . $NVM_DIR/nvm.sh
-
 # ENV
 PATH="$HOME/bin\
 :$HOME/.rbenv/shims\
@@ -46,6 +42,31 @@ set -o emacs
 [ -f ~/.ksh_private ] && . ~/.ksh_private
 
 ## Helpery things
+
+# NVM (shell functions)
+export NVM_DIR=$HOME/.nvm
+[ -s $NVM_DIR/nvm.sh ] && . $NVM_DIR/nvm.sh
+
+node() {
+	if ! which node; then
+		nvm use node
+		$(which node) "$@"
+	fi
+}
+
+npm() {
+	if ! which npm; then
+		nvm use node
+		$(which npm) "$@"
+	fi
+}
+
+npx() {
+	if ! which npx; then
+		nvm use node
+		$(which npx) "$@"
+	fi
+}
 
 alias dir='ls'
 alias be='bundle exec'
