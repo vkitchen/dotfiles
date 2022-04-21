@@ -1,8 +1,5 @@
 export LC_CTYPE='en_NZ.UTF-8'
 
-# "normal" line editing mode
-set -o emacs
-
 # Prompt
 PS1='\n$PWD\n$ '
 
@@ -27,6 +24,9 @@ INFOPATH=/opt/homebrew/share/info:
 export PATH MANPATH INFOPATH HOME TERM
 
 export EDITOR=$(whence nvim)
+
+# "normal" line editing. Vi mode auto enabled when $EDITOR ~= vi
+set -o emacs
 
 # Private ENV
 [ -f ~/.ksh_private ] && . ~/.ksh_private
