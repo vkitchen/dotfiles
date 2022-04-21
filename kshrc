@@ -4,7 +4,7 @@ export LC_CTYPE='en_NZ.UTF-8'
 set -o emacs
 
 # Prompt
-PS1='$PWD $ '
+PS1='\n$PWD\n$ '
 
 ## ENVy things
 
