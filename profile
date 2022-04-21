@@ -28,8 +28,5 @@ export EDITOR=$(whence nvim)
 # "normal" line editing mode
 set -o emacs
 
-# Fix for Rails. Remove when version 7 is default
-export DISABLE_SPRING=true
-
 # Execute .kshrc
 export ENV=$HOME/.kshrc
