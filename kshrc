@@ -48,23 +48,23 @@ export NVM_DIR=$HOME/.nvm
 [ -s $NVM_DIR/nvm.sh ] && . $NVM_DIR/nvm.sh
 
 node() {
-	if ! which node; then
+	if ! whence -p node; then
 		nvm use node
-		$(which node) "$@"
+		$(whence -p node) "$@"
 	fi
 }
 
 npm() {
-	if ! which npm; then
+	if ! whence -p npm; then
 		nvm use node
-		$(which npm) "$@"
+		$(whence -p npm) "$@"
 	fi
 }
 
 npx() {
-	if ! which npx; then
+	if ! whence -p npx; then
 		nvm use node
-		$(which npx) "$@"
+		$(whence -p npx) "$@"
 	fi
 }
 
