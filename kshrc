@@ -50,22 +50,22 @@ export NVM_DIR=$HOME/.nvm
 node() {
 	if ! whence -p node; then
 		nvm use node
-		$(whence -p node) "$@"
 	fi
+	$(whence -p node) "$@"
 }
 
 npm() {
 	if ! whence -p npm; then
 		nvm use node
-		$(whence -p npm) "$@"
 	fi
+	$(whence -p npm) "$@"
 }
 
 npx() {
 	if ! whence -p npx; then
 		nvm use node
-		$(whence -p npx) "$@"
 	fi
+	$(whence -p npx) "$@"
 }
 
 alias dir='ls'
