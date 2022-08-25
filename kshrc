@@ -71,7 +71,7 @@ npx() {
 alias dir='ls'
 alias be='bundle exec'
 alias ber='bundle exec rspec'
-alias berm='bundle exec rspec $(git ls-files --modified '\''**/*_spec.rb'\'')'
+alias berm='bundle exec rspec $(git ls-files -om --exclude-standard '\''**/*_spec.rb'\'')'
 alias devc='bundle exec rails console'
 alias stagc='bundle exec rails console --environment=staging'
 alias prodc='bundle exec rails console --environment=production_au'
