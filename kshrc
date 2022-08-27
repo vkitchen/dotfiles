@@ -15,6 +15,7 @@ export HOMEBREW_SHELLENV_PREFIX=/opt/homebrew
 PATH="$HOME/bin\
 :$HOME/.rbenv/shims\
 :$HOME/google-cloud-sdk/bin\
+:/Library/Tex/texbin\
 :/usr/local/texlive/2021/bin/universal-darwin\
 :/opt/homebrew/bin\
 :/opt/homebrew/sbin\
@@ -27,7 +28,7 @@ PATH="$HOME/bin\
 :/usr/local/sbin\
 :/usr/games\
 "
-MANPATH=/opt/homebrew/share/man:
+MANPATH=/Library/Tex/Distributions/.DefaultTex/Contents/Man:/opt/homebrew/share/man:
 INFOPATH=/opt/homebrew/share/info:
 
 # Export ENV
