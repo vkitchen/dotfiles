@@ -2,7 +2,9 @@
 
 # Keyboards
 
-## Iris Rev. 5
+## [Iris Rev. 5](https://keeb.io/collections/iris-split-ergonomic-keyboard)
+
+[Full Layout](https://github.com/vkitchen/qmk_firmware/blob/master/keyboards/keebio/iris/keymaps/vkitchen/keymap.c)
 
 Adjusted:
 
@@ -54,7 +56,7 @@ SHFT x c m p v HOME   END z , . ' / SHFT
         CMD LWR ENT   SPC RSE ALT
 ```
 
-## HHKB Pro 2
+## [HHKB Pro 2](https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard)
 
 Shifted:
 
