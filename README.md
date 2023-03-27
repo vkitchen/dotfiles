@@ -2,7 +2,7 @@
 
 # Keyboards
 
-## Iiris
+## Iris
 
 ```txt
 & [ { } (   = * ) + ] ! # $
