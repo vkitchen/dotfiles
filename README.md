@@ -54,11 +54,6 @@ SHFT x c m p v HOME   END z , . ' / SHFT
         CMD LWR ENT   SPC RSE ALT
 ```
 
-Missing:
-```
--_ @^ \| $~
-```
-
 ## HHKB Pro 2
 
 Shifted:
