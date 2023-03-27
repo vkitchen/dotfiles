@@ -13,15 +13,6 @@ x c m p v   z , . ' /
 
 ## HHKB
 
-Unshifted
-
-```txt
-& [ { } (   = * ) + ] ! # $
-w g d f b   q l u o y - @
-r s t h k   j n e a i ;
-x c m p v   z , . ' /
-```
-
 Shifted
 
 ```txt
@@ -29,6 +20,15 @@ Shifted
 W G D F B Q L U O Y _ ^
 R S T H K J N E A I :
 X C M P V Z < > " ?
+```
+
+Unshifted
+
+```txt
+& [ { } ( = * ) + ] ! # $
+w g d f b q l u o y - @
+r s t h k j n e a i ;
+x c m p v z , . ' /
 ```
 
 # Software
