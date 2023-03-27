@@ -52,7 +52,7 @@ Unshifted:
  ESC [ { } ( =            * ) + ] ! #
  TAB w g d f b            q l u o y BSPC
 CTRL r s t h k            j n e a i ;
-SHFT x c m p v HOME   END z , . ' / SHFT
+SHFT x c m p v ENT    SPC z , . ' / SHFT
         CMD LWR ENT   SPC RSE ALT
 ```
 
