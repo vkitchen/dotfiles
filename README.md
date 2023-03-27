@@ -1,8 +1,37 @@
-# dotfiles
+# Dotfiles & Stuff
 
-configs etc.
+# Keyboards
 
-# Software I use
+## Iiris
+
+```txt
+& [ { } (   = * ) + ] ! # $
+w g d f b   q l u o y - @
+r s t h k   j n e a i ;
+x c m p v   z , . ' /
+```
+
+## HHKB
+
+Unshifted
+
+```txt
+& [ { } (   = * ) + ] ! # $
+w g d f b   q l u o y - @
+r s t h k   j n e a i ;
+x c m p v   z , . ' /
+```
+
+Shifted
+
+```txt
+% 7 5 3 1 9 0 2 4 6 8 ` ~
+W G D F B Q L U O Y _ ^
+R S T H K J N E A I :
+X C M P V Z < > " ?
+```
+
+# Software
 
 * [mpd](https://www.musicpd.org) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 * [neovim](https://neovim.io)
@@ -12,11 +41,11 @@ configs etc.
 * [tmux](https://github.com/tmux/tmux)
 * [weechat](https://weechat.org)
 
-# Computers I use
+# Computers
 
 ## Work Laptop
 
-```
+```txt
 MacBook Pro (14-inch, 2021)
 OS macOS
 Processor Apple M1 Pro
@@ -26,7 +55,7 @@ Graphics Embedded
 
 ## Uni iMac
 
-```
+```txt
 iMac (27-inch, Late 2013)
 OS macOS
 Processor 3.2 GHz Intel Core i5
@@ -36,7 +65,7 @@ Graphics NVIDIA GeForce GT 755M 1024 MB
 
 ## Personal Desktop
 
-```
+```txt
 OS OpenBSD & Void Linux
 Processor 4.2 GHz Intel Core i7 7700K
 Memory 64 GB 3000 MHz DDR4
@@ -44,7 +73,8 @@ Graphics Embedded
 ```
 
 ## Personal Server
-```
+
+```txt
 OS FreeBSD
 Processor 3.3 Ghz Intel Core i5 6600
 Memory 32GB 2133 MHZ DDR4
