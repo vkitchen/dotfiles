@@ -38,7 +38,7 @@ Shifted:
  TAB W G D F B            Q L U O Y BSPC
 CTRL R S T H K            J N E A I :
 SHFT X C M P V HOME   END Z < > " ? SHFT
-        WIN LWR ENT   SPC RSE ALT
+        CMD LWR ENT   SPC RSE ALT
 ```
 
 Unshifted:
@@ -48,7 +48,7 @@ Unshifted:
  TAB w g d f b            q l u o y BSPC
 CTRL r s t h k            j n e a i ;
 SHFT x c m p v HOME   END z , . ' / SHFT
-        WIN LWR ENT   SPC RSE ALT
+        CMD LWR ENT   SPC RSE ALT
 ```
 
 Missing:
