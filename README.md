@@ -12,7 +12,7 @@ Adjusted:
 -- -- -- -- -- --            -- -- -- -- -- --
 -- -- -- -- -- --            PS B↓ B↑ -- -- --
 -- -- -- -- -- --            HM P↓ P↑ ND -- --
--- -- -- -- -- -- --      -- -- -- -- -- -- --
+-- -- -- -- -- --  --    --  -- -- -- -- -- --
             -- -- --      -- -- --
 ```
 
@@ -22,8 +22,8 @@ Raised:
 F11 F7 F5 F3 F1 F9            F0 F2 F4 F6 F8 F12
  -- -- -- -- -- --            -- -- -- -- -- --
  -- V↑ V↓ M  -- --            -- -- -- -- -- --
- -- -- -- -- -- -- --      -- -- -- -- -- -- --
-            -- -- --      -- -- --
+ -- -- -- -- -- --  --    --  -- -- -- -- -- --
+             -- -- --      -- -- --
 ```
 
 Lowered:
@@ -32,8 +32,8 @@ Lowered:
 F11 F7 F5 F3 F1 F9            F0 F2 F4 F6 F8 F12
  -- -- -- -- -- --            -- -- -- -- -_ @^
  -- -- -- -- -- --            ←  ↓  ↑  →  -- $~
- -- -- -- -- -- -- --      -- -- -- -- -- \| --
-            -- -- --      -- -- --
+ -- -- -- -- -- --  --    --  -- -- -- -- \| --
+             -- -- --      -- -- --
 ```
 
 Shifted:
@@ -42,8 +42,8 @@ Shifted:
  ESC 7 5 3 1 9            0 2 4 6 8 `
  TAB W G D F B            Q L U O Y BSPC
 CTRL R S T H K            J N E A I :
-SHFT X C M P V ENT    SPC Z < > " ? SHFT
-        CMD LWR ENT   SPC RSE ALT
+SHFT X C M P V  ENT  SPC  Z < > " ? SHFT
+       CMD LWR ENT    SPC RSE ALT
 ```
 
 Unshifted:
@@ -52,8 +52,8 @@ Unshifted:
  ESC [ { } ( =            * ) + ] ! #
  TAB w g d f b            q l u o y BSPC
 CTRL r s t h k            j n e a i ;
-SHFT x c m p v ENT    SPC z , . ' / SHFT
-        CMD LWR ENT   SPC RSE ALT
+SHFT x c m p v  ENT  SPC  z , . ' / SHFT
+       CMD LWR ENT    SPC RSE ALT
 ```
 
 ## [HHKB Pro 2](https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard)
