@@ -2,7 +2,7 @@
 
 # Keyboards
 
-## Iris
+## Iris Rev. 5
 
 ```txt
 & [ { } (   = * ) + ] ! # $
@@ -11,7 +11,7 @@ r s t h k   j n e a i ;
 x c m p v   z , . ' /
 ```
 
-## HHKB
+## HHKB Pro 2
 
 Shifted
 
