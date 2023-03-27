@@ -4,6 +4,8 @@
 
 ## Iris Rev. 5
 
+TODO Adjusted:
+
 ```txt
 & [ { } (   = * ) + ] ! # $
 w g d f b   q l u o y - @
@@ -11,24 +13,69 @@ r s t h k   j n e a i ;
 x c m p v   z , . ' /
 ```
 
-## HHKB Pro 2
-
-Shifted
+TODO Raised:
 
 ```txt
-% 7 5 3 1 9 0 2 4 6 8 ` ~
-W G D F B Q L U O Y _ ^
-R S T H K J N E A I :
-X C M P V Z < > " ?
+& [ { } (   = * ) + ] ! # $
+w g d f b   q l u o y - @
+r s t h k   j n e a i ;
+x c m p v   z , . ' /
 ```
 
-Unshifted
+TODO Lowered:
 
 ```txt
-& [ { } ( = * ) + ] ! # $
-w g d f b q l u o y - @
-r s t h k j n e a i ;
-x c m p v z , . ' /
+& [ { } (   = * ) + ] ! # $
+w g d f b   q l u o y - @
+r s t h k   j n e a i ;
+x c m p v   z , . ' /
+```
+
+Shifted:
+
+```txt
+ ESC 7 5 3 1 9            0 2 4 6 8 `
+ TAB W G D F B            Q L U O Y BSPC
+CTRL R S T H K            J N E A I :
+SHFT X C M P V HOME   END Z < > " ? SHFT
+        WIN LWR ENT   SPC RSE ALT
+```
+
+Unshifted:
+
+```txt
+ ESC [ { } ( =            * ) + ] ! #
+ TAB w g d f b            q l u o y BSPC
+CTRL r s t h k            j n e a i ;
+SHFT x c m p v HOME   END z , . ' / SHFT
+        WIN LWR ENT   SPC RSE ALT
+```
+
+Missing:
+```
+-_ @^ \| $~
+```
+
+## HHKB Pro 2
+
+Shifted:
+
+```txt
+ESC % 7 5 3 1 9 0 2 4 6 8 ` | ~
+TAB  W G D F B Q L U O Y _ ^ BSPC
+CTRL  R S T H K J N E A I : ENT
+SHFT   X C M P V Z < > " ? SHFT FN
+   ALT CMD    SPC    CMD ALT
+```
+
+Unshifted:
+
+```txt
+ESC & [ { } ( = * ) + ] ! # \ $
+TAB  w g d f b q l u o y - @ BSPC
+CTRL  r s t h k j n e a i ; ENT
+SHFT   x c m p v z , . ' / SHFT FN
+   ALT CMD    SPC    CMD ALT
 ```
 
 # Software
