@@ -76,6 +76,7 @@ alias berm='bundle exec rspec $(git ls-files -om --exclude-standard '\''**/*_spe
 alias devc='bundle exec rails console'
 alias stagc='bundle exec rails console --environment=staging'
 alias prodc='bundle exec rails console --environment=production_au'
+alias ukc='bundle exec rails console --environment=production_uk'
 alias deploy='bundle exec mina deploy_prod'
 alias deploy_au='bundle exec mina production_au deploy'
 alias deploy_uk='bundle exec mina production_uk deploy'
