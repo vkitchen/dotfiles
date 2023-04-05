@@ -12,3 +12,6 @@ set background=light
 set clipboard=unnamed
 
 nmap <C-P> :GFiles<CR>
+nmap <C-F> :Rg<CR>
+
+set number relativenumber
