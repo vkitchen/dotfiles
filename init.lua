@@ -6,6 +6,8 @@ vim.call('plug#begin')
 vim.call('plug#end')
 
 require'nvim-treesitter.configs'.setup {
+  ensure_installed = { 'elixir' },
+
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
