@@ -1,0 +1,81 @@
+! APT keymap https://github.com/Apsu/APT
+keymaps 0-2,4-6,8-9,12
+alt_is_meta
+include "linux-with-two-alt-keys.inc"
+strings as usual
+! ----- !
+! Row 1 !
+! ----- !
+keycode   1 = Escape
+! ----- !
+! Row 2 !
+! ----- !
+keycode  41 = dollar         asciitilde
+keycode   2 = ampersand      percent
+keycode   3 = bracketleft    seven
+keycode   4 = braceleft      five
+keycode   5 = braceright     three
+keycode   6 = parenleft      one
+keycode   7 = equal          nine
+keycode   8 = asterisk       zero
+keycode   9 = parenright     two
+keycode  10 = plus           four
+keycode  11 = bracketright   six
+keycode  12 = exclam         eight
+keycode  13 = numbersign     grave
+keycode  14 = Delete
+! ----- !
+! Row 3 !
+! ----- !
+keycode  15 = Tab
+keycode  16 = w
+keycode  17 = g
+keycode  18 = d
+keycode  19 = f
+keycode  20 = b
+keycode  21 = q
+keycode  22 = l
+keycode  23 = u
+keycode  24 = o
+keycode  25 = y
+keycode  26 = minus          underscore
+keycode  27 = at             asciicircum
+keycode  28 = Return
+! ----- !
+! Row 4 !
+! ----- !
+keycode  58 = Caps_Lock
+keycode  30 = r
+keycode  31 = s
+keycode  32 = t
+keycode  33 = h
+keycode  34 = k
+keycode  35 = j
+keycode  36 = n
+keycode  37 = e
+keycode  38 = a
+keycode  39 = i
+keycode  40 = semicolon      colon
+keycode  43 = backslash      bar
+! ----- !
+! Row 5 !
+! ----- !
+keycode  42 = Shift
+keycode  44 = x
+keycode  45 = c
+keycode  46 = m
+keycode  47 = p
+keycode  48 = v
+keycode  49 = z
+keycode  50 = comma          less
+keycode  51 = period         greater
+keycode  52 = apostrophe     quotedbl
+keycode  53 = slash          question
+keycode  54 = Shift
+! ----- !
+! Row 6 !
+! ----- !
+keycode  29 = Control
+keycode  56 = Alt
+keycode  57 = space
+keycode  97 = Control
