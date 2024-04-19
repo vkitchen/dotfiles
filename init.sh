@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # link to standard home directory type dotfile
-function hlink() {
+hlink() {
 	# -e expands links. fails if link is broken
 	if [ -e "$HOME/.$1" -o -L "$HOME/.$1" ]; then
 		echo "rm ~/.$1"
@@ -10,10 +10,8 @@ function hlink() {
 	ln -s $PWD/$1 ~/.$1
 }
 
-hlink config/nvim/init.vim
-hlink cwmrc
-hlink kshrc
-hlink ksh_private
-hlink newsboat/urls
-hlink profile
+hlink config/fish/config.fish
+hlink config/mako/config
+hlink config/nvim/init.lua
+hlink config/sway/config
 hlink tmux.conf
