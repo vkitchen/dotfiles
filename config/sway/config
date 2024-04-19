@@ -34,6 +34,7 @@ font pango:monospace 8
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 # exec --no-startup-id nm-applet
 
+exec dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
 exec mako
 
 # Use pactl to adjust volume in PulseAudio.
