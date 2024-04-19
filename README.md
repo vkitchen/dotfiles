@@ -78,52 +78,31 @@ SHFT   x c m p v z , . ' / SHFT FN
    ALT CMD    SPC    CMD ALT
 ```
 
-# Software
-
-* [mpd](https://www.musicpd.org) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
-* [neovim](https://neovim.io)
-* [newsboat](https://newsboat.org)
-* [nnn](https://github.com/jarun/nnn)
-* [oksh](https://github.com/ibara/oksh)
-* [tmux](https://github.com/tmux/tmux)
-* [weechat](https://weechat.org)
-
 # Computers
-
-## Work Laptop
-
-```txt
-MacBook Pro (14-inch, 2021)
-OS macOS
-Processor Apple M1 Pro
-Memory 16 GB
-Graphics Embedded
-```
 
 ## Uni iMac
 
 ```txt
 iMac (27-inch, Late 2013)
-OS macOS
-Processor 3.2 GHz Intel Core i5
-Memory 8 GB 1600 MHz DDR3
+OS Void Linux
+Processor 3.2GHz Intel Core i5-4570
+Memory 8GB 1600MHz DDR3
 Graphics NVIDIA GeForce GT 755M 1024 MB
 ```
 
 ## Personal Desktop
 
 ```txt
-OS OpenBSD & Void Linux
-Processor 4.2 GHz Intel Core i7 7700K
-Memory 64 GB 3000 MHz DDR4
+OS Void Linux
+Processor 4.2GHz Intel Core i7-7700K
+Memory 64GB 3000MHz DDR4
 Graphics Embedded
 ```
 
 ## Personal Server
 
 ```txt
-OS FreeBSD
-Processor 3.3 Ghz Intel Core i5 6600
-Memory 32GB 2133 MHZ DDR4
+Processor 3.3GHz Intel Core i5-6600
+Memory 32GB 2133MHZ DDR4
 Graphics Embedded
 ```
