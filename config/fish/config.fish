@@ -4,6 +4,7 @@ set -x JAVA_HOME /usr/lib/jvm/default-jdk
 
 set -x MANPATH /usr/share/man /usr/X11R6/man /usr/local/man /usr/lib/jvm/default-jdk/man
 
+fish_add_path -p ~/.local/bin
 fish_add_path -p ~/bin
 fish_add_path /usr/lib/jvm/default-jdk/bin
 
