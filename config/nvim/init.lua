@@ -16,10 +16,3 @@ require'nvim-treesitter.configs'.setup {
 }
 
 vim.wo.number = true
-
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'tex' },
-  callback = function()
-    vim.opt.formatoptions:append('a')
-  end
-})
