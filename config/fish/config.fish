@@ -6,6 +6,7 @@ set -x MANPATH /usr/share/man /usr/X11R6/man /usr/local/man /usr/lib/jvm/default
 
 fish_add_path -p ~/.local/bin
 fish_add_path -p ~/bin
+fish_add_path -p /usr/local/texlive/2026/bin/x86_64-linuxmusl
 fish_add_path /usr/lib/jvm/default-jdk/bin
 
 if status is-interactive
